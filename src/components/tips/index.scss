@@ -1,0 +1,50 @@
+.tips_wrap {
+  position: fixed;
+  top: 80px;
+  width: 339px;
+  min-height: 36px;
+  left: calc(50% - 170px);
+  display: none;
+  &.show {
+    display: block
+  }
+  .tips_item {
+    min-height: 36px;
+    width: 100%;
+    border: 2px solid #A87118;
+    border-radius: 6px;
+    background-color: #FFFBF2;
+    padding: 5px;
+    animation: fadeIn 1s ease;
+    margin-bottom: 10px;
+    .tips_icon {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      background: url('src/commons/images/icons.svg') no-repeat;
+      margin-right: 10px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    .success {
+      background-position: -3px -36px;
+    }
+    .error {
+      background-position: -3px -36px;
+    }
+    span {
+      font-size: 14px;
+      color: #999;
+      vertical-align: middle;
+    }
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

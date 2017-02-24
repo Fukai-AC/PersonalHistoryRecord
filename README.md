@@ -1,2 +1,2 @@
 # PersonalHistoryRecord
-React+TypeScript+Redux+React-Router+React-Intl+Offline
+React + TypeScript + Redux + React-Router + React-Intl + Offline

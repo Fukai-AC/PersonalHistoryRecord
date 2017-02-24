@@ -1,0 +1,34 @@
+{
+  "env": "production",
+  "buildtime": {
+    "both": {
+      "debug": false,
+      "image_host_url": "",
+      "local_mode": false,
+      "language": "zh-CN"
+    },
+    "hot": false,
+    "sourcemap": false,
+    "uglify": true,
+    "analyze": false
+  },
+  "runtime": {
+    "both": {
+      "offline": true
+    },
+    "origin_server": {
+      "ip": "0.0.0.0",
+      "port": "5000",
+      "https": {
+        "enabled": false,
+        "crt": "",
+        "key": ""
+      }
+    },
+    "api": {
+      "host": "",
+      "port": ""
+    },
+    "host": {}
+  }
+}
