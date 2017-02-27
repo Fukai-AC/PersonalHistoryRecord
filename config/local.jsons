@@ -1,0 +1,34 @@
+{
+  "env": "development",
+  "buildtime": {
+    "both": {
+      "debug": true,
+      "image_host_url": "/",
+      "local_mode": true,
+      "language": "zh-CN"
+    },
+    "hot": true,
+    "sourcemap": true,
+    "uglify": false,
+    "analyze": false
+  },
+  "runtime": {
+    "both": {
+      "offline": false
+    },
+    "origin_server": {
+      "ip": "0.0.0.0",
+      "port": "3002",
+      "https": {
+        "enabled": false,
+        "crt": "",
+        "key": ""
+      }
+    },
+    "api": {
+      "host": "",
+      "port": ""
+    },
+    "host": {}
+  }
+}

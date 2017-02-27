@@ -31,7 +31,6 @@ let webpackConfig = {
   },
   output: {
     path: BUILD_PATH,
-    publicPath: '/',
     filename: is_dev ? 'js/[name].js' : 'js/[name].[chunkhash].js',
     chunkFilename: is_dev ? 'js/[name].js' : 'js/[name].[chunkhash].js'
   },
